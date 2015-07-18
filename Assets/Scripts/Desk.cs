@@ -6,7 +6,7 @@ public class Desk : Kagu {
 	// Use this for initialization
 	override protected void Start () {
 		kagu_name = "desk";
-		sizey = this.transform.localScale.y/100;
+		objectsizey = this.transform.localScale.y/this.transform.localScale.y*2.8f;
 	}
 	
 	// Update is called once per frame

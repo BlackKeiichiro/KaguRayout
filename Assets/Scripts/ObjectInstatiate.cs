@@ -17,9 +17,4 @@ public class ObjectInstatiate : MonoBehaviour {
 			z += 10;
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

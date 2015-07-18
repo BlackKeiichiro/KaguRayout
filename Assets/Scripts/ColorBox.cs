@@ -6,7 +6,7 @@ public class ColorBox : Kagu {
 	// Use this for initialization
 	override protected void Start () {
 		kagu_name = "colorbox";
-		sizey = this.transform.localScale.y/1000;
+		objectsizey = this.transform.localScale.y/this.transform.localScale.y*2.0f;
 	}
 	
 	// Update is called once per frame

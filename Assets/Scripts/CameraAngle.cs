@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class CameraAngle : MonoBehaviour {
-	// Use this for initialization
 	void Start () {
 		camera_flag = false;
 		stage = GameObject.Find("Stage") as GameObject;
@@ -12,12 +11,11 @@ public class CameraAngle : MonoBehaviour {
 		center.y += 20;
 		CameraRotate(0);
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		_horizontal = Input.GetAxis("Horizontal");
 		_vartical = Input.GetAxis("Vertical");
-		transform.LookAt(GameObject.Find("Stage").transform);
+		this.transform.rotation = Quaternion.Slerp(this.transform.rotation,Quaternion.LookRotation(stage.transform.position-this.transform.position),0.5f);
 		if(_horizontal != 0 && !camera_flag)
 			CameraRotate(_horizontal);
 		else if(Input.GetKeyDown(KeyCode.Space)){
@@ -32,6 +30,7 @@ public class CameraAngle : MonoBehaviour {
 				_vartical = 0;
 			}
 		}
+
 	}
 	
 	void CameraRotate(float horizontal){
@@ -50,6 +49,5 @@ public class CameraAngle : MonoBehaviour {
 	private Vector3 center;
 	private Vector3 rotate_position;
 	private Vector3 save_position;
-	private Quaternion save_rotation;
 	private GameObject stage;
 }

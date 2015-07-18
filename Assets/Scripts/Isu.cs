@@ -5,7 +5,7 @@ public class Isu : Kagu{
 	// Use this for initialization
 	override protected void Start () {
 		kagu_name = "isu";
-		sizey = this.transform.localScale.y/100;
+		objectsizey = this.transform.localScale.y/this.transform.localScale.y;
 	}
 	
 	// Update is called once per frame
