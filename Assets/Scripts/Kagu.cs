@@ -12,6 +12,7 @@ abstract public class Kagu : MonoBehaviour {
 		lock_flag = false;
 		mouse_position =  Camera.main.WorldToScreenPoint(transform.position);
 		save_position = this.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, mouse_position.z));
+		
 	}
 	protected void OnMouseDrag(){
 		lock_flag = false;
@@ -25,7 +26,7 @@ abstract public class Kagu : MonoBehaviour {
 		}
 	}
 	protected void KaguAttach(){
-		if(Physics.Raycast(this.transform.position,Vector3.down,out _raycasthit,10) && !lock_flag){
+		if(Physics.Raycast(this.transform.position,Vector3.down,out _raycasthit,15) && !lock_flag){
 			if(_raycasthit.transform.gameObject.tag == "Attach"){
 				Vector3 attach_position = _raycasthit.transform.position;
 				attach_position.y += objectsizey * 5;
@@ -39,7 +40,7 @@ abstract public class Kagu : MonoBehaviour {
 	
 	protected void KaguRotation(){
 		if(Input.GetKey(KeyCode.R) && this.gameObject.name == manager.nowObject.name){
-			this.transform.RotateAround(this.transform.position,transform.up,5);
+			this.transform.RotateAround(this.transform.position,transform.up,10);
 		}
 	}
 	public string getKaguName(){

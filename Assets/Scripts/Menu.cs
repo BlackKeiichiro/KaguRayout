@@ -16,11 +16,9 @@ public class Menu : MonoBehaviour , IPointerEnterHandler, IPointerExitHandler
 	
 	}
 	public void OnPointerEnter(PointerEventData eventData){
-		Debug.Log("aaa");
 		_animator.SetBool("Pop",true);
 	}
 	public void OnPointerExit(PointerEventData eventData){
-		Debug.Log("bbb");
 		_animator.SetBool("Pop",false);
 	}
 	

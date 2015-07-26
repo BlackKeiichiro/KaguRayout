@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: e1401e9bc75874321aec060f7d50e1a6
+timeCreated: 1437829065
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: polySurface2
+    100002: polySurface21
+    100004: polySurface21 1
+    100006: polySurface22
+    100008: polySurface23
+    100010: polySurface24
+    100012: polySurface25
+    100014: polySurface26
+    100016: polySurface26 1
+    100018: polySurface27
+    100020: polySurface28
+    100022: polySurface29
+    100024: polySurface30
+    100026: polySurface31
+    100028: polySurface32
+    100030: polySurface33
+    100032: polySurface34
+    100034: polySurface35
+    100036: polySurface36
+    100038: polySurface37
+    100040: polySurface38
+    100042: polySurface39
+    100044: transform21
+    100046: transform22
+    100048: transform23
+    100050: transform24
+    100052: transform25
+    100054: transform26
+    100056: transform27
+    100058: transform28
+    100060: transform29
+    100062: transform30
+    100064: transform31
+    100066: transform32
+    100068: transform33
+    100070: transform34
+    100072: transform35
+    100074: transform36
+    100076: transform37
+    100078: transform38
+    100080: transform39
+    100082: //RootNode
+    400000: polySurface2
+    400002: polySurface21
+    400004: polySurface21 1
+    400006: polySurface22
+    400008: polySurface23
+    400010: polySurface24
+    400012: polySurface25
+    400014: polySurface26
+    400016: polySurface26 1
+    400018: polySurface27
+    400020: polySurface28
+    400022: polySurface29
+    400024: polySurface30
+    400026: polySurface31
+    400028: polySurface32
+    400030: polySurface33
+    400032: polySurface34
+    400034: polySurface35
+    400036: polySurface36
+    400038: polySurface37
+    400040: polySurface38
+    400042: polySurface39
+    400044: transform21
+    400046: transform22
+    400048: transform23
+    400050: transform24
+    400052: transform25
+    400054: transform26
+    400056: transform27
+    400058: transform28
+    400060: transform29
+    400062: transform30
+    400064: transform31
+    400066: transform32
+    400068: transform33
+    400070: transform34
+    400072: transform35
+    400074: transform36
+    400076: transform37
+    400078: transform38
+    400080: transform39
+    400082: //RootNode
+    2300000: polySurface21
+    2300002: polySurface25
+    2300004: polySurface26
+    3300000: polySurface21
+    3300002: polySurface25
+    3300004: polySurface26
+    4300000: polySurface25
+    4300002: polySurface26
+    4300004: polySurface21
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

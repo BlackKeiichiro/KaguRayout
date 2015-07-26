@@ -2,8 +2,6 @@
 using System.Collections;
 
 public class Desk : Kagu {
-
-	// Use this for initialization
 	override protected void Start () {
 		kagu_name = "desk";
 		objectsizey = this.transform.localScale.y/this.transform.localScale.y*2.8f;
